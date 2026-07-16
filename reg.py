@@ -26,13 +26,35 @@ import re
 
 
 #email validation
-regx=r'\b[A-Za-z0-9_.+-]+@[A-Za-z0-9]+\.[a-zA-Z0-9-.]+$'
-email='rakesh_abc.9+@gmail.com'
-print(re.match(regx,email))
-if re.match(regx,email):
-    print("Valid Email")
-else:
-    print("Invalid Email")
+# regx=r'\b[A-Za-z0-9_.+-]+@[A-Za-z0-9]+\.[a-zA-Z0-9-.]+$'
+# email='rakesh+abc.9+@gmail.com'
+# print(re.match(regx,email))
+# if re.match(regx,email):
+#     print("Valid Email")
+# else:
+#     print("Invalid Email")
+
+def checkEmail(mail):
+    regx=r'\b[a-zA-Z0-9.+_-]+@[a-zA-Z0-9]+\.[a-zA-Z0-9-.]+$'
+    if(re.match(regx,mail)):
+        print("Valid mail")
+    else:
+        print("Invalid mail")
+
+mail=input("Enter email:")
+checkEmail(mail)
+
+
+def checkPhone(number):
+    if(re.fullmatch(r'[7-9][0-9]{9}',number)):
+        print("Yes")
+    else:
+        print("No")
+
+no=input("Enter number")
+checkPhone(no)
+
+
 
 
 
