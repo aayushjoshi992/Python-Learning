@@ -8,7 +8,13 @@ file.write('third line \n')
 file.close()
 print("file created")
 
-with open('abc.txt','w') as f:
-    f.write("abc")
-print("file created")
+#create a file name student.txt and write student name address telephone no 
+
+
+f=open("student.txt","w")
+f.write("Name:Harry \n")
+f.write("Address: Kathmandu \n")
+f.write("Telephone No: 9851022347")
+f.close()
+
 
