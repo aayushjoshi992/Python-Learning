@@ -53,3 +53,6 @@ arr=np.array([1,4,9,16])
 print(np.sqrt(arr))
 print(np.log(arr))
 print(np.exp(arr))
+
+a=np.array([10,20,30,40])
+print(a!=20)
