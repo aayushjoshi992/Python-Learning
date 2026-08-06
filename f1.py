@@ -12,7 +12,7 @@ print("file created")
 
 
 f=open("student.txt","w")
-f.write("Name:Harry \n")
+f.write('Name:Harry \n')
 f.write("Address: Kathmandu \n")
 f.write("Telephone No: 9851022347")
 f.close()
