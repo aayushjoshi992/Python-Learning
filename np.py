@@ -26,4 +26,13 @@ import numpy as np
 
 a=np.array([10,20,30])
 b=np.array([1,2,3])
-print(a+b)
+# print(a+b)
+# print(a-b)
+
+# print(a+5)
+
+print(a*2)#broadcasting
+print(np.sqrt(a))
+print(np.exp(a))
+print(np.square(a))
+print(np.log(a))
