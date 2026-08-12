@@ -59,5 +59,6 @@ print(np.sort(arrp))
 print(np.percentile(arrp,30))
 print(np.percentile(arrp,50))
 print(np.percentile(arrp,100))
-
+print(np.quantile(arrp,0.30))
+print(np.quantile(arrp,0.75))
 
