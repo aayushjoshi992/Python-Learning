@@ -1,7 +1,7 @@
 # Mathematical and Statistical Operation in Numpy
 import numpy as np
 
-#Basic Mathematical Operations
+# #Basic Mathematical Operations
 arr= np.array([10,20,30,40,50])
 print(arr)
 print(np.add(arr,10))
@@ -25,9 +25,24 @@ print(f"sin functio:{np.sin(angles)}")
 print(f"cos func: {np.cos(angles)}")
 print(f"tan func: {np.tan(angles)}")
 
-# Statistical operation
+# # Statistical operation
 print(np.std(arr))
 print(np.var(arr))
 print(np.max(arr))
 print(np.min(arr))
+
+# Finding max and min value index from an array
+arr=np.array([25,15,60,35])
+print(np.argmax(arr))
+print(np.argmin(arr))
+arr=np.array([1,10,100])
+print(np.log(arr))
+print(np.log10(arr))
+print(np.log2(arr).astype(int)) 
+
+
+arr=np.array([2.3456, 5.6789])
+print(np.ceil(arr))
+print(np.floor(arr))
+
 
