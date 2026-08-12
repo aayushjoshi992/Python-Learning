@@ -44,5 +44,20 @@ print(np.log2(arr).astype(int))
 arr=np.array([2.3456, 5.6789])
 print(np.ceil(arr))
 print(np.floor(arr))
+arr2=np.array([[10,20,30],[40,50,60]])
+
+print(np.sum(arr2))
+print(np.sum(arr2, axis=1))
+print(np.mean(arr2,axis=1))
+print(np.sum(arr2,axis=0))
+print(np.mean(arr2,axis=0))
+
+#percentile is a value below which given data falls 
+arrp=np.array([10,14,17,25,40,60,45,30,100,90,80,70,40,50])
+
+print(np.sort(arrp))
+print(np.percentile(arrp,30))
+print(np.percentile(arrp,50))
+print(np.percentile(arrp,100))
 
 
