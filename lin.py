@@ -51,8 +51,15 @@ print(dp)
 print(A@B)
 
 # in transpose of matrix row becomes columns
-A=np.array([[1,2,3],[4,5,6]])
+A=np.array([[1,2,3],
+            [4,5,6]])
 print(A)
 print(A.T)
+
+# identity matrix-matrix should be square matrix
+A=np.array([[1,2],
+            [3,4]])
+print(np.linalg.inv(A))
+
 
 
