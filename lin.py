@@ -61,5 +61,19 @@ A=np.array([[1,2],
             [3,4]])
 print(np.linalg.inv(A))
 
+a=np.array([3,4])
+distance=np.linalg.norm(a)
+print(f'The distance is {distance}')
+
+A=np.array([1,2,3])
+B=np.array([-4,-5,-6])
+C=np.array([6,6,6])
+
+cosine_similarity_AB=np.dot(A,B)/(np.linalg.norm(A)*np.linalg.norm(B))
+print(f'cosine_similarity AB is {cosine_similarity_AB}')
+cosine_similarity_AC=np.dot(A,C)/(np.linalg.norm(A)*np.linalg.norm(C))
+print(f'cosine_similarity AC is {cosine_similarity_AC}')
+
+
 
 
