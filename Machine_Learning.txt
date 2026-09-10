@@ -1,0 +1,73 @@
+INTRODUCTION TO MACHINE LEARNING:
+
+Artificial Intelligence (AI)
+|
+|---Machine Learning (ML)
+|   |
+|   |---Deep Learning (DL)
+
+## AI(Artuficial Intelligence): Makes machine perform tasks requiring human intellingence.
+Makes machines perform taks requiring human intellingence.
+Examples:Chatbots, expert systems, robotics.
+
+## ML (Machine Learning): A subset of AI where machines learn patterns from data/features, using algorithms
+and predictions or decisions without being explicitlu programmed for every task.
+Examples: Spam detection, recommendation systems.
+Instead of  writing rules manually, we provide:
+Data 
+An algorithms
+Training
+----------------------
+
+The model learns the relationship between inputs and outputs 
+Traditional Programing: Data + Rules -> outputs
+Machine Learning: Data + Output -> Machine Learning Algorithm -> Model (Rules Learned)
+---------------------------
+    Collect Data -> Preprocess Data -> Split Data -> Choose Algorithm -> Train Model -> Evaluate Model -> 
+    Tune Model -> Deploy Model -> Predict New Data
+---------------
+    ## Types of Machine Learning
+1. Supervised Learning::
+The model learns from training labeled data (input+ correct output).
+o/p: Predict class or numerical value,
+
+Age Salary Purchased
+25  40000   No
+35  70000   Yes
+Features (X): Age, Salary
+Target (Y): Purchased
+
+Applications of Machine Learning:
+House price prediction
+Student result prediction
+Sentiment analysis
+Email spam detection
+Disease prediction
+
+Algorithms:
+Linear Regresstion
+Logistic Regresstion
+Decision Tree
+Random Forest
+Support Vector Machine (SVM)
+K-Nearest Neighbors (KNN)
+Naive Bayes
+
+
+2. Unsupervised Learning::
+The model learns from unlabeled data(only input)
+Goal: discovers hidden patterns, strs or group in the data.
+Training data: unlabelled data
+O/P: Clusters, association, reduced dimensions
+Main task: Clustering, Association and Dimensionality reduction
+Accuracy Evaluation: harder no true labels available
+e.g. customer segmentation, market basket analysis
+
+3.Reinforcement Learning:
+The model learns by iinteractig with an environment and receiving rewardds or penalties.
+e.g:
+Sleft-Driving cars
+robotics
+Game Playing (chess, Go)
+Resource management
+
