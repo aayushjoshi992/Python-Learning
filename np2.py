@@ -49,4 +49,4 @@ ar2=np.arange(24).reshape(3,4,2)
 ar3=np.arange(24).reshape(6,4)
 print(ar3)
 
-
+ 
